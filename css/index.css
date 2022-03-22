@@ -7,12 +7,12 @@
 
 @font-face{
     font-family: Lato;
-    src: url(/fontfamily/Lato-Black.ttf);
+    src: url(../fontfamily/Lato-Black.ttf);
 }
 
 @font-face{
     font-family: Lato-light;
-    src: url(/fontfamily/Lato-Light.ttf);
+    src: url(../fontfamily/Lato-Light.ttf)
 }
 
 
