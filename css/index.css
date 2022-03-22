@@ -1,0 +1,731 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+@font-face{
+    font-family: Lato;
+    src: url(/fontfamily/Lato-Black.ttf);
+}
+
+@font-face{
+    font-family: Lato-light;
+    src: url(/fontfamily/Lato-Light.ttf);
+}
+
+
+/* ---------------------------Navbar-----------------------> */
+.navbar{
+    width: 100%;
+    height: auto;
+    background-color: rgb(20, 25, 34);
+}
+
+.navbar img{
+    width: 10%;
+    padding: 1%;
+    
+}
+
+/* -------------------------------MainHeader------------------> */
+
+.mainhead{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+}
+
+
+.mainheadinners{
+    flex-basis: 50%;
+}
+
+.mainhead :first-child{
+    background-color: rgb(36, 47, 62);
+}
+
+.inners1 i{
+    color: rgb(165, 170, 176);
+}
+
+.inners1 {
+    display: flex;
+    gap: 10px;
+    font-family: Lato;
+    margin: 15px 35px;
+    color: rgb(165, 170, 176);
+}
+
+.inners2{
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    margin: 25% 0;
+}
+
+.inners2 h1 {
+    font-family: Lato;
+    margin-bottom: 20px;
+}
+
+.inners2 p {
+    font-family: Lato-light;
+}
+
+.inners3{
+    display: flex;
+    gap: 10px;
+    font-family: Lato;
+    margin: 15px 35px;
+    color: rgb(165, 170, 176);
+}
+
+.inners3_1 a{
+    cursor: pointer;
+    color: rgb(165, 170, 176);;
+}
+
+
+
+.mainheadinners img{
+    width: 100%;
+    height: 100%;
+}
+
+@media(max-width: 1000px){
+
+    .mainhead{
+        flex-wrap: wrap;
+    }
+    .mainheadinners{
+       flex-basis: 100%;
+    }
+}
+
+
+
+/* -------------------------------sections------------------> */
+form{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.container1{
+   
+    width: 65%;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 70px;
+    position: relative;
+}
+
+.all{
+    display: flex;
+}
+
+.container1inners10{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ranking{
+    background-color: black;
+    border-radius: 0 0 25px 0;
+    width: 95px;
+    height: auto;
+}
+
+.ranking h2{
+    color: rgb(255, 166, 34);
+    font-family: Lato;
+    text-align: center;
+    font-size: 45px;
+}
+
+.ranking p{
+    color: white;
+    font-family: Lato;
+    font-size: 20px;
+    padding: 6px 12px;
+}
+
+.cr1{
+    width: 100% ;
+}
+
+.CR{
+    
+    width: 20%;
+    background-color: black;
+    width: 20%;
+    background-color: black;
+    margin: -38px;
+    border-radius: 8px;
+    height: 80px;
+    border-radius: 8px;
+    position: relative;
+}
+
+.CR5{
+    width: 20px;
+    height: 36px;
+    background: black;
+    order: -1;
+    position: absolute;
+    left: -6px;
+    top: 2px;
+    transform: skewX(338deg);
+    border-top-left-radius: 2px;
+}
+
+.CR p{
+    color: rgb(255, 166, 34);
+    padding-top: 15px;
+    font-family: Lato;
+    text-align: center;
+}
+
+.CR h2{
+    color: white;
+    font-family: Lato;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.container1inners{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.container1inners1{
+    flex-basis: 33%;
+    margin: 25px;
+}
+
+.container1inners2{
+    flex-basis: 33%;
+    margin: 25px;
+}
+
+
+.container1inners3{
+    flex-basis: 33%;
+    flex-wrap: wrap;
+    margin: 25px;
+}
+
+.container1inners1 img{
+    display: flex;
+    margin: auto;
+}
+
+.container1inners1 h4{
+    text-align: center;
+    font-family: Lato;
+    
+}
+
+.img1 {
+    width: 70%;
+    padding: 15px 0;
+}
+
+.img2{
+    width: 40%;
+    
+}
+
+.img3{
+    width: 100%;
+}
+
+.container1inners1 a{
+    text-decoration: none;
+}
+
+.myh2{
+    font-family: Lato;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 25px;
+    color: black;
+    text-decoration: underline;
+    
+}
+
+.icontext{
+    font-family: Lato-light;
+    display: flex;
+    justify-content: flex-start;
+    padding: 5px;
+    gap: 10px;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+.accessories{
+    width: 100%;
+    height: auto;
+    border: 2px solid #dfdede;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.sleepinfo{
+    color: rgb(89, 90, 93);
+    font-family: Lato;
+    text-align: center;
+    font-size: 20px;
+}
+
+.accessories h2{
+    text-align: center;
+    font-family: Lato;
+    color: rgb(89, 90, 93);
+    margin-top: 15px;
+}
+
+.accessories h3{
+    text-align: center;
+    font-family: Lato;
+    color: rgb(89, 90, 93);
+    margin: 15px 0;
+}
+
+.accessories img {
+    width: 30%;
+}
+
+.accessoriesimg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.accimgs{
+    flex-basis: 33%;
+    padding: 7px;
+}
+
+.accimgs img{
+    width: 100%;
+    padding: 10px;
+}
+
+.accimgs a{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn a{
+    width: 100%;
+}
+
+.container1inners3 button{
+    margin: 25px 0;
+    background-color: rgb(225, 125, 34);
+    color: white;
+    padding: 15px;
+    width: 100%;
+    font-size: 30px;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+
+.acch1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Lato;
+}
+
+
+.horizontalline{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.horizonmobile{
+    display: none;
+    color: rgb(255, 166, 34);
+    font-family: Lato;
+    font-size: 10px;
+    text-align: center;
+    margin: 15px;
+}
+
+.horizontalline{
+    width: 100%;
+   
+}
+
+
+.horizontalline h2 {
+    width: 90%; 
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(204, 198, 198); 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+    position: relative;
+
+ } 
+
+ .horizontalline i{
+     line-height: 0.1em;
+ }
+
+ 
+ .horizontalline h2 span { 
+     
+     background-color: white;
+     color: rgb(255, 166, 34);
+     padding: 0 10px; 
+     font-size: 20px;
+     position: absolute;
+ }
+
+ .reviews{
+     display: flex;
+ }
+
+ .container1inners4{
+     width: 90%;
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .reviewimgs img{
+     width: 100%;
+     border-radius: 15px;
+     margin-top: 25px;
+     display: inline-block;
+     
+ }
+
+ .reviewscont{
+     margin: 15px;
+ }
+
+ .reviewscont h3{
+     font-family: Lato;
+ }
+
+ .reviewscont p{
+     font-family: Lato-light;
+ }
+
+
+ .container3{
+     width: 100%;
+     height: auto;
+     margin: 85px 0;
+ }
+
+ .container3inner{
+     width: 80%;
+     margin: auto;
+     border: 3px solid black;
+     height: auto;
+     border-radius: 15px;
+     
+ }
+
+ .container3inner h1{
+     font-family: Lato;
+     text-align: center;
+     margin: 10% 0;
+     font-size: 45px;
+ }
+
+
+ table, tr, td{
+     border: 1px solid;
+ }
+
+ table{
+     margin: 3%;
+     border-collapse: collapse;
+     
+ }
+
+ tr td:nth-child(odd){
+     background-color: rgb(241, 235, 235);      
+ }
+
+ tr td:first-child{
+     position: sticky;
+     left: 0;
+     z-index: 10g;
+ }
+
+ .tablee{
+     overflow: auto;
+ }
+
+
+
+ td{
+     width: 5%;
+     text-align: center;
+     padding: 5px;
+     font-family: Lato;
+     line-height: 30px;
+     position: relative;
+     
+ }
+
+ .td1{
+    width: 5%;
+    text-align: center;
+    padding: 5px;
+    font-family: Lato;
+    line-height: 30px;
+    position: relative;
+    border-left: 3px solid;
+    border-right: 3px solid;
+ }
+ .tdborders{
+    border-left: 3px solid;
+    border-right: 3px solid;
+ }
+
+ .tdborders1{
+    border-left: 3px solid;
+    border-right: 3px solid;
+    border-bottom: 3px solid;
+ }
+
+ .tdinners{
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    top: -91px;
+    left: 0px;
+    border-radius: 15px 15px 0px 0px;
+
+ }
+
+ .tdinners h6{
+     color: rgb(255, 166, 34);  
+ }
+
+ .tdinners h4{
+    color: white; 
+}
+
+ .tableimgs img{
+    max-width: 90px;
+    max-height: 33px;
+    height: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
+ }
+
+ .tdcontent{
+    font-size: 15px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 9px;
+ }
+.tdcontent p span{
+    display: block;
+}
+
+
+ td h2{
+     font-size: 20px;
+     margin: 8px;
+ }
+
+
+ td i{
+     font-size: 25px;
+ }
+
+ td p{
+     margin-bottom: 45px;
+ }
+
+ .check{
+     
+     color: green;
+     margin: 15px;
+     
+ }
+
+ .xmark{
+     color: red;
+     margin: 15px;
+ }
+
+ .tablebutton{
+    padding: 13px 25px;
+    border-radius: 10px;
+    font-family: 'Lato';
+    border: 0;
+    letter-spacing: 1px;
+    margin: 25px 0;
+    background-color: rgb(225, 125, 34);
+    color: white;
+    cursor: pointer;
+ }
+
+ .nonvisible{
+     border: 0;
+    visibility: hidden;
+ }
+
+
+ @media(max-width: 1200px){
+
+    .inners1{
+        justify-content: center;
+    }
+
+    .inners3{
+        justify-content: center;
+    }
+
+    .container1inners{
+        flex-wrap: wrap;
+    }
+     .container1inners1{
+         flex-basis: 100%;
+     }
+
+     .container1inners2{
+         flex-basis: 50%;
+         margin: auto;
+     }
+
+     .container1inners3{
+         flex-basis: 100%;
+     }
+
+
+     .container1inners4{
+         display: block;
+         margin: 25px 0;
+     }
+
+     .CR{
+         display: none;
+     }
+
+     .sleepinfo{
+         font-size: 15px;
+         margin: 25px;
+     }
+
+     .container3inner h1 {
+         margin: 17% 0;
+     }
+
+     /* .accessoriesimg{
+        width: 100%;
+        display: block;
+        margin: auto;
+     } */
+ }
+
+ @media(max-width: 850px){
+    .container3inner h1 {
+        margin: 23% 0;
+    }
+ }
+
+ @media(max-width: 650px){
+    .container1inners3 button{
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    .myh2{
+        text-align: center;
+    }
+
+    .container3inner h1 {
+        margin: 35% 0;
+    }
+ }
+
+ @media(max-width: 500px){
+     .reviews{
+         flex-direction: column;
+     }
+
+     .horizonmobile{
+         display: block;
+     }
+
+     .horizontalline{
+         display: none;
+     }
+ }
+
+ @media(max-width: 1490px){
+     .CR{
+         height: 100px;
+     }
+ }
+
+ @media(max-width: 550px){
+     .accessoriesimg{
+        display: block;
+        width: 50%;
+        margin: auto;
+     }
+    
+ }
+
+ .top{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(0, 54, 139);
+    position: fixed;
+    bottom: 35px;
+    right: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top i{
+    color: white;
+    font-size: 30px;
+}
