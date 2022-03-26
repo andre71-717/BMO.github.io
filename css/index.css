@@ -24,7 +24,7 @@
 }
 
 .navbar img{
-    width: 10%;
+    width: 8%;
     padding: 1%;
     
 }
@@ -97,7 +97,15 @@
     color: rgb(165, 170, 176);;
 }
 
-
+.iconsircle{
+    height: 20px;
+    width: 20px;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    background-color: white;
+    text-align: center;
+}
 
 .mainheadinners img{
     width: 100%;
@@ -149,12 +157,12 @@ a{
 
 .container1{
    
-    width: 65%;
+    max-width: calc(1200px + 30px);
     height: auto;
     border: 1px solid black;
     border-radius: 10px;
     margin: auto;
-    margin-top: 70px;
+    margin-top: 110px;
     position: relative;
 }
 
@@ -177,7 +185,7 @@ a{
 
 .ranking{
     background-color: rgb(36, 47, 62);
-    border-radius: 0 0 25px 0;
+    border-radius: 10px 0 25px 0;
     width: 95px;
     height: auto;
 }
@@ -202,11 +210,10 @@ a{
 
 .CR{
     
-    width: 20%;
+    width: 215px;
+    height: 81px;
     background-color: rgb(36, 47, 62);
     margin: -38px;
-    border-radius: 8px;
-    height: 80px;
     border-radius: 8px;
     position: relative;
 }
@@ -246,19 +253,25 @@ a{
 }
 .containertogether{
     display: flex;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
 }
 
 .container1inners1{
     flex-basis: 33%;
+    max-width: 33%;
 }
 
 .container1inners2{
     flex-basis: 33%;
+    max-width: 33%;
 }
+
 
 .container1inners3{
     flex-basis: 33%;
+    max-width: 33%;
 }
 
 .container1inners3_3{
@@ -353,7 +366,7 @@ a{
     width: 30%;
 }
 
-.h3ofsleepnumber{
+.h3ofsleep{
     text-align: center;
     font-family: Lato;
     color: rgb(89, 90, 93);
@@ -377,6 +390,7 @@ a{
 
 .accimgs img{
     width: 100%;
+    height: 100%;
     padding: 10px;
 }
 
@@ -414,6 +428,11 @@ a{
     justify-content: center;
     align-items: center;
     font-family: Lato;
+    
+}
+
+.acch1 a{
+    color: #273549;
 }
 
 
@@ -464,7 +483,9 @@ a{
  }
 
  .reviews{
+    width: 100%;
     display: flex;
+    align-items: flex-start;
     flex-direction: row;
     margin: 15px;
     gap: 15px;
@@ -487,15 +508,136 @@ a{
      justify-content: space-around;
  }
 
- .information{
+ #information{
      width: 100%;
-     margin: 25px;
+     display: none;
  }
 
- .information2{
-    width: 87%;
+ #information1{
+    width: 100%;
+    display: none;
+}
+
+#information2{
+    width: 100%;
+    display: none;
+}
+
+#information3{
+    width: 100%;
+    display: none;
+}
+
+#information4{
+    width: 100%;
+    display: none;
+}
+
+#information5{
+    width: 100%;
+    display: none;
+}
+
+#information6{
+    width: 100%;
+    display: none;
+}
+
+#information7{
+    width: 100%;
+    display: none;
+}
+
+#information8{
+    width: 100%;
+    display: none;
+}
+
+#information9{
+    width: 100%;
+    display: none;
+}
+
+#information10{
+    width: 100%;
+    display: none;
+}
+
+ .readinfo1{
+     width: 100%;
+     height: auto;
+     display: flex;
+     position: relative;
+ }
+
+ #readinfo2{
+    width: 169px;
+    height: 35px;
     display: flex;
-    flex-wrap: wrap;
+    background-color: rgb(36, 47, 62);
+    margin: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 1px;
+    border-radius: 0px 0px 15px 15px;
+    cursor: pointer;
+
+ }
+
+ .readbutton{
+     background-color: rgb(36, 47, 62);
+     color: white;
+     font-family: Lato;
+     margin: auto;
+     padding: 5px;
+     border: 0px;
+     cursor: pointer;
+ }
+
+ .readbutton1{
+    background-color: rgb(36, 47, 62);
+    color: white;
+    font-family: Lato;
+    margin: auto;
+    padding: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.readbutton2{
+    background-color: rgb(36, 47, 62);
+    color: white;
+    font-family: Lato;
+    margin: auto;
+    padding: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.readbutton3{
+    background-color: rgb(36, 47, 62);
+    color: white;
+    font-family: Lato;
+    margin: auto;
+    padding: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.readbutton4{
+    background-color: rgb(36, 47, 62);
+    color: white;
+    font-family: Lato;
+    margin: auto;
+    padding: 5px;
+    border: 0px;
+    cursor: pointer;
+}
+
+ .information2{
+    width: 95%;
+    margin: 55px 50px;
  }
 
  .info1{
@@ -505,17 +647,18 @@ a{
     align-items: center;
  }
 
- .information h1{
+ .information2 h1{
      font-family: Lato;
      font-size: 20px;
      color: rgb(50, 52, 56);
      margin: 15px 0;
  }
 
- .information p {
-     font-family: Lato;
+ .information2 p {
+     color: #000;
+     font-family: Lato-Light;
      font-size: 15px 0;
-     color: rgb(149, 149, 149, 1);
+     
     
  }
 
@@ -523,6 +666,8 @@ a{
     height: 100%;
     width: 100%;
     object-fit: cover; 
+    margin-top: 25px;
+    border-radius: 5px;
  }
 
  .reviewscont{
@@ -544,6 +689,7 @@ a{
 
  .reviewscont h3{
      font-family: Lato;
+     margin: 8px 0;
  }
 
  .reviewscont p{
@@ -569,7 +715,7 @@ a{
  .container3inner h1{
      font-family: Lato;
      text-align: center;
-     margin: 10% 0;
+     margin: 5% 0;
      font-size: 45px;
  }
 
@@ -581,6 +727,24 @@ a{
  table{
      margin: 7% 2%;
      border-collapse: collapse;
+
+     
+ }
+
+ .non{
+    background: white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-top: 1px solid white;
+    background-color: white !important;
+ }
+
+ .non2{
+    background-color: white !important;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+
+
      
  }
 
@@ -592,13 +756,16 @@ a{
      position: sticky;
      left: 0;
      z-index: 10;
+     width: 12%;
  }
 
  .tablee{
      overflow: auto;
  }
 
-
+tr{
+    height: 70px;
+}
 
  td{
      width: 5%;
@@ -661,6 +828,19 @@ a{
     margin-left: auto;
  }
 
+ .hidecr{
+    border: 1px solid white;
+ }
+
+ .hidecr td{
+     border: 1px solid white;
+     background-color: white !important;
+     z-index: 50;
+     width: 50px;
+     height: 110px;
+     border-top: 1px solid white;
+ }
+
  .tdcontent{
     font-size: 15px;
     position: absolute;
@@ -674,8 +854,9 @@ a{
 
 
  td h2{
-     font-size: 20px;
-     margin: 8px;
+    font-size: 17px;
+    line-height: 21px;
+    margin: 8px;
  }
 
 
@@ -690,7 +871,7 @@ a{
 
 
  .check{  
-     color: green;
+     color: rgb(40, 64, 81);
      margin: 15px;
  }
 
@@ -703,7 +884,7 @@ a{
  }
 
  .xmark{
-     color: red;
+     color: rgb(177, 177, 177);
      margin: 15px;
  }
 
@@ -723,6 +904,8 @@ a{
      border: 0;
     visibility: hidden;
  }
+
+
 
 
  @media(max-width: 1200px){
@@ -751,19 +934,6 @@ a{
         display: block;
     }
     
-     .container1inners1{
-         flex-basis: 33%;
-     }
-
-     .container1inners2{
-         flex-basis: 33%;
-         margin: auto;
-     }
-
-     /* .container1inners3{
-        flex-basis: 33%;
-        margin: auto;
-    } */
 
     .container1inners3_3 button{
         margin: 25px 0;
@@ -775,46 +945,38 @@ a{
         border: 0;
         border-radius: 15px;
         cursor: pointer;
-    
     }
-
-
-     .container1inners4{
-         display: block;
-         margin: auto;
-     }
-
-     .CR{
-         display: none;
-     }
+   .CR p{
+       font-size: 15px;
+   }
+   .CR h2{
+    font-size: 20px;
+}
 
      .sleepinfo{
          font-size: 15px;
-         margin: 25px;
+        
      }
 
      .container3inner h1 {
-         margin: 17% 0;
+         margin: 4% 0;
      }
 
      .lines{
          display: block;
      }
-
-     .container1inners{
-         margin: 25px 0;
+     .container1inners4{
+         display: block;
      }
-
-   
-
-    
-
-
  }
 
  @media(max-width: 1600px){
     table{
         margin: 15% 2%
+     }
+
+     .reviewscont p{
+        font-size: 10px;
      }
  }
 
@@ -824,7 +986,7 @@ a{
         width: 20%;
     }
     .container3inner h1 {
-        margin: 23% 0;
+        margin: 7% 0;
     }
 
     table{
@@ -838,6 +1000,17 @@ a{
         border-right: 1px solid white;
      } 
 
+     .containertogether{
+         width: 100%;
+         display: flex;
+         justify-content: space-around;
+         align-items: center;
+     }
+
+     .container1inners4{
+         max-height: 100%;
+     }
+
      .mymainimg2{
         display: none;
     }
@@ -850,10 +1023,12 @@ a{
 
     .container1inners1{
         flex-basis: 50%;
+        max-width: calc(50% - 20px);
     }
 
     .container1inners2{
         flex-basis: 50%;
+        max-width: calc(50% - 20px);
     }
     .container1inners3{
         display: none;
@@ -862,7 +1037,7 @@ a{
         display: block;
     }
   .accessories{
-    width: 50%;
+    width: 70%;
     margin: auto;
     border: 2px solid #dfdede;
     border-radius: 10px;
@@ -870,15 +1045,25 @@ a{
   }
 
   .btn{
-      width: 50%;
+      width: 70%;
+      font-size: 20px;
       margin: auto;
   }
+
+ }
+
+
+ @media(max-width: 700px){
+     .accessories h2{
+         font-size: 20px;
+     }
  }
 
  @media(max-width: 650px){
 
     .navbar img{
-        width: 25%;
+        width: 30%;
+        margin: 3px 10px;
     }
     .container1inners3 button{
         font-size: 20px;
@@ -887,7 +1072,7 @@ a{
 
 
     .container3inner h1 {
-        margin: 35% 0;
+        margin: 11% 0;
     }
 
     table{
@@ -911,7 +1096,7 @@ a{
      }
 
      .container1inners2_1 a h2{
-        font-size: 15px;
+        font-size: 14px;
      }
 
      .icontext{
@@ -923,12 +1108,6 @@ a{
      }
  }
 
- @media(max-width: 1490px){
-     .CR{
-         height: 100px;
-     }
- }
-
  @media(max-width: 550px){
      .accessoriesimg{
         display: flex;
@@ -937,7 +1116,7 @@ a{
      }
 
      .btn button{
-         font-size: 15px;
+         font-size: 25px;
      }
     
  }
@@ -953,9 +1132,62 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+    visibility: hidden;
+}
+
+.top.active{
+    visibility: visible;
 }
 
 .top i{
     color: white;
     font-size: 30px;
+}
+
+.show {
+    display: block !important;
+    animation:  fade 0.5s ease-in-out;
+}
+
+#information{
+    animation:  fade 0.5s ease-in-out;
+}
+
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.footermain{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(41, 46, 59);
+}
+
+.footermain1{
+   text-align: center;
+   
+}
+
+.footertext h4{
+    font-family: Lato;
+    color: rgb(183, 183, 183);
+    font-size: 16px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+
+.footerlinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.footerlinks a {
+    font-family: Lato-Light;
+    font-size: 17px;
+    color: white;
+    padding: 0 2px;
 }
