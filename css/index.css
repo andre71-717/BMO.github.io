@@ -268,6 +268,11 @@ a{
     max-width: 33%;
 }
 
+.container1inners2_1{
+    width: 70%;
+    margin: auto;
+}
+
 
 .container1inners3{
     flex-basis: 33%;
@@ -961,13 +966,7 @@ tr{
      .container3inner h1 {
          margin: 4% 0;
      }
-
-     .lines{
-         display: block;
-     }
-     .container1inners4{
-         display: block;
-     }
+     
  }
 
  @media(max-width: 1600px){
@@ -1009,6 +1008,7 @@ tr{
 
      .container1inners4{
          max-height: 100%;
+         display: block;
      }
 
      .mymainimg2{
@@ -1048,6 +1048,10 @@ tr{
       width: 70%;
       font-size: 20px;
       margin: auto;
+  }
+
+  .lines{
+      display: block;
   }
 
  }

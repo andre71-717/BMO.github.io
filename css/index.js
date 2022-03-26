@@ -41,40 +41,40 @@ function showDiv() {
  function textChange(){
     
     if(more_less_box.classList.contains("show")){
-      document.querySelector('.readbutton').innerHTML = "Less Information";
+      document.querySelector('.readbutton').innerHTML = 'Less Information <i class="fa-solid fa-angle-up"></i>';
     } else {
-      document.querySelector('.readbutton').innerHTML = "More  information ";
+      document.querySelector('.readbutton').innerHTML = 'More  information <i class="fa-solid fa-chevron-down"></i>';
 
     }
 
     if(more_less_box.classList.contains("show")){
-      document.querySelector('.readbutton1').innerHTML = "Less Information";
+      document.querySelector('.readbutton1').innerHTML = 'Less Information <i class="fa-solid fa-angle-up"></i>';
     } else {
-      document.querySelector('.readbutton1').innerHTML = "More  information";
-
-    }
-
-    
-    if(more_less_box.classList.contains("show")){
-      document.querySelector('.readbutton2').innerHTML = "Less Information";
-    } else {
-      document.querySelector('.readbutton2').innerHTML = "More  information";
+      document.querySelector('.readbutton1').innerHTML = 'More  information <i class="fa-solid fa-chevron-down"></i>';
 
     }
 
     
     if(more_less_box.classList.contains("show")){
-      document.querySelector('.readbutton3').innerHTML = "Less Information";
+      document.querySelector('.readbutton2').innerHTML = 'Less Information <i class="fa-solid fa-angle-up"></i>';
     } else {
-      document.querySelector('.readbutton3').innerHTML = "More  information";
+      document.querySelector('.readbutton2').innerHTML = 'More  information <i class="fa-solid fa-chevron-down"></i>';
 
     }
 
     
     if(more_less_box.classList.contains("show")){
-      document.querySelector('.readbutton4').innerHTML = "Less Information";
+      document.querySelector('.readbutton3').innerHTML = 'Less Information <i class="fa-solid fa-angle-up"></i>';
     } else {
-      document.querySelector('.readbutton4').innerHTML = "More  information";
+      document.querySelector('.readbutton3').innerHTML = 'More  information <i class="fa-solid fa-chevron-down"></i>';
+
+    }
+
+    
+    if(more_less_box.classList.contains("show")){
+      document.querySelector('.readbutton4').innerHTML = 'Less Information <i class="fa-solid fa-angle-up"></i>';
+    } else {
+      document.querySelector('.readbutton4').innerHTML = 'More  information <i class="fa-solid fa-chevron-down"></i>';
 
     }
 
