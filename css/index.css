@@ -450,6 +450,10 @@ a{
     margin-bottom: 15px;
 }
 
+.acch1 a h2:hover{
+    text-decoration: none !important;
+}
+
 
 .horizontalline{
     width: 100%;
@@ -589,7 +593,7 @@ a{
     width: 169px;
     height: 35px;
     display: flex;
-    background-color: rgb(36, 47, 62);
+    background-color: rgb(39, 53, 73);
     margin: auto;
     position: absolute;
     left: 0;
@@ -727,6 +731,7 @@ a{
  }
 
  .container3inner h1{
+     color: rgb(39, 53, 73);
      font-family: Lato;
      text-align: center;
      margin: 5% 0;
@@ -1167,7 +1172,7 @@ tr{
  .top{
     width: 60px;
     height: 60px;
-    background-color: rgb(0, 54, 139);
+    background-color: rgb(39, 53, 73);
     position: fixed;
     bottom: 35px;
     right: 50px;
@@ -1233,4 +1238,9 @@ tr{
     font-size: 17px;
     color: white;
     padding: 0 2px;
+}
+
+.footerlinks a:hover{
+    color: rgb(183, 183, 183);
+    
 }
