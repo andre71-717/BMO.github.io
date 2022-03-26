@@ -783,6 +783,7 @@ tr{
 
  td{
      width: 5%;
+     padding: 5px;
      text-align: center;
      font-family: Lato;
      line-height: 30px;
