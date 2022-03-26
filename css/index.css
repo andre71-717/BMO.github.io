@@ -98,8 +98,8 @@
 }
 
 .iconsircle{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
     border: 2px solid white;
     border-radius: 50%;
     color: white;
@@ -337,6 +337,11 @@ a{
     font-size: 24px;
 }
 
+.icontext a h6{
+    color: #323438;
+    font-family: Lato-Light;
+}
+
 .accessories{
     width: 100%;
     height: auto;
@@ -440,6 +445,11 @@ a{
     color: #273549;
 }
 
+.acch1 h2{
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
 
 .horizontalline{
     width: 100%;
@@ -508,7 +518,7 @@ a{
 
  .container1inners4{
      width: 90%;
-     margin: 15px 0;
+     margin: auto;
      display: flex;
      justify-content: space-around;
  }
@@ -641,7 +651,6 @@ a{
 }
 
  .information2{
-    width: 95%;
     margin: 55px 50px;
  }
 
@@ -1007,7 +1016,7 @@ tr{
      }
 
      .container1inners4{
-         max-height: 100%;
+         max-height: 100% !important;
          display: block;
      }
 
@@ -1062,6 +1071,12 @@ tr{
          font-size: 20px;
      }
  }
+
+ @media(max-width: 750px){
+    .container1inners2_1{
+       width: 100%;
+    }
+}
 
  @media(max-width: 650px){
 
