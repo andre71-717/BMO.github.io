@@ -102,4 +102,6 @@ function showDiv() {
 
 let newdate = new Date().toLocaleDateString('en-us',{year:'numeric', month:'short',day:'numeric'}) 
 
-document.getElementById('date').innerHTML = newdate 
+let datetext = "Updated: " + newdate
+
+document.getElementById('date').innerHTML = datetext 
