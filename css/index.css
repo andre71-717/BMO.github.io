@@ -195,13 +195,15 @@ a{
     font-family: Lato;
     text-align: center;
     font-size: 30px;
+    margin-top: 5px;
 }
 
 .ranking p{
     color: white;
     font-family: Lato;
     font-size: 15px;
-    padding: 6px 24px;
+    padding: 6px 15px;
+    text-transform: uppercase;
 }
 
 .cr1{
@@ -1095,6 +1097,68 @@ tr{
 
   .lines{
       display: block;
+  }
+  .hidder{
+      display: none;
+  }
+  .CR{
+    bottom: 20px;
+    left: 2px;
+    margin: 0;
+    width: 188px;
+    height: 62px;
+  }
+  .CR p {
+      font-size: 10px;
+  }
+  .CR h2 {
+    font-size: 13px;
+    }
+
+    .ranking{
+    font-size: 22.4px;
+    height: auto;
+    line-height: 22px;
+    width: 80px;
+    }
+
+    .ranking p{
+    letter-spacing: 1.5px;
+    font-size: 8px;
+    text-align: center;
+    padding: 0;
+    margin-top: 5px;
+    
+    }
+
+  .reviews{
+      display: block;
+  }
+
+  hr{
+      display: none;
+  }
+  .horizontalline{
+      display: none;
+  }
+
+  .reviewimgs{
+    border-radius: 5px;
+    width: 160px;
+    height: 120px;
+    overflow: hidden;
+    order: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .reviewscont p{
+      font-size: 15px;
+  }
+  .reviewscont h3{
+    font-size: 15px;
+    line-height: 18px;
+    padding-bottom: 5px;
   }
 
  }
