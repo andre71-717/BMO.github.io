@@ -117,7 +117,17 @@
 }
 
 @media(max-width: 1000px){
+    .inners2{
+        padding: 2% 0;
+    }
 
+    .inners1{
+        justify-content: flex-end !important;
+    }
+
+    .inners3{
+        justify-content: flex-start;
+    }
     .mainhead{
         flex-wrap: wrap;
     }
@@ -370,7 +380,7 @@ a{
     text-align: center;
     font-family: Lato;
     color: #e17d22;
-    margin-top: 12px;
+    margin: 15px 0;
     letter-spacing: 1px;
     font-size: clamp(16px, 3.7593984962vw, 20px);
 }
@@ -974,11 +984,11 @@ tr{
     }
 
     .inners1{
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .inners3{
-        justify-content: center;
+        justify-content: flex-start;
     }
 
     .reviewimgs{
@@ -1052,9 +1062,8 @@ tr{
 
      .containertogether{
          width: 100%;
-         display: flex;
-         justify-content: space-around;
-         align-items: center;
+         display: block;
+       
      }
 
      .container1inners4{
@@ -1073,13 +1082,18 @@ tr{
     }
 
     .container1inners1{
-        flex-basis: 50%;
-        max-width: calc(50% - 20px);
+        flex-basis: 100%;
+        max-width: calc(100% - 50px);
+    }
+    .img2{
+        width: 15%;
+        margin: 15px 0;
     }
 
     .container1inners2{
         flex-basis: 50%;
         max-width: calc(50% - 20px);
+        margin: 30px 0px;
     }
     .container1inners3{
         display: none;
@@ -1178,12 +1192,6 @@ tr{
      }
  }
 
- @media(max-width: 750px){
-    .container1inners2_1{
-       width: 100%;
-    }
-}
-
  @media(max-width: 650px){
 
     .navbar img{
@@ -1206,6 +1214,14 @@ tr{
  }
 
  @media(max-width: 500px){
+
+    .inners1{
+        justify-content: center !important;
+    }
+
+    .inners3{
+        justify-content: center;
+    }
     
     
      .horizonmobile{
