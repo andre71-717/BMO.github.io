@@ -210,23 +210,23 @@ a{
 
 .CR{
     
-    width: 215px;
-    height: 81px;
+    width: 322px;
+    height: 77px;
     background-color: rgb(36, 47, 62);
-    margin: -38px;
+    margin: -20px;
     border-radius: 8px;
     position: relative;
 }
 
 .CR5{
     width: 20px;
-    height: 36px;
+    height: 19px;
     background: rgb(36, 47, 62);
     order: -1;
     position: absolute;
     left: -6px;
     top: 2px;
-    transform: skewX(338deg);
+    transform: skewX(321deg);
     border-top-left-radius: 2px;
 }
 
@@ -235,7 +235,10 @@ a{
     padding-top: 15px;
     font-family: Lato;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .CR h2{
@@ -244,6 +247,8 @@ a{
     padding-bottom: 15px;
     text-align: center;
     font-size: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .container1inners{
@@ -774,7 +779,7 @@ a{
  tr td:first-child{
      position: sticky;
      left: 0;
-     z-index: 10;
+     z-index: 100 !important;
      width: 12%;
  }
 
