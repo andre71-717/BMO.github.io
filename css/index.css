@@ -186,7 +186,7 @@ a{
 .ranking{
     background-color: rgb(36, 47, 62);
     border-radius: 10px 0 25px 0;
-    width: 95px;
+    width: 100px;
     height: auto;
 }
 
@@ -204,6 +204,7 @@ a{
     font-size: 15px;
     padding: 6px 15px;
     text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .cr1{
@@ -355,6 +356,7 @@ a{
     border: 2px solid #dfdede;
     border-radius: 10px;
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .sleepinfo{
@@ -364,12 +366,15 @@ a{
     font-size: 20px;
 }
 
-.accessories h2{
+.puffysale{
     text-align: center;
     font-family: Lato;
-    color: #595A5D;
+    color: #e17d22;
     margin-top: 12px;
+    letter-spacing: 1px;
+    font-size: clamp(16px, 3.7593984962vw, 20px);
 }
+
 
 .accessories h3{
     text-align: center;
@@ -397,6 +402,7 @@ a{
     align-items: center;
     margin-bottom: 15px;
     width: 100%;
+    line-height: 16px;
 }
 
 .accimgs{
@@ -1087,6 +1093,7 @@ tr{
     border: 2px solid #dfdede;
     border-radius: 10px;
     cursor: pointer;
+    position: relative;
   }
 
   .btn{
@@ -1128,6 +1135,7 @@ tr{
     text-align: center;
     padding: 0;
     margin-top: 5px;
+    
     
     }
 
