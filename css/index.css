@@ -201,8 +201,8 @@ a{
 
 .ranking{
     background-color: rgb(36, 47, 62);
-    border-radius: 10px 0 25px 0;
-    width: 100px;
+    border-radius: 7px 0 11px 0;
+    width: 77px;
     height: auto;
 }
 
@@ -210,17 +210,18 @@ a{
     color: rgb(255, 166, 34);
     font-family: Lato;
     text-align: center;
-    font-size: 30px;
+    font-size: 27px;
     padding-top: 5px;
 }
 
 .ranking p{
     color: white;
     font-family: Lato;
-    font-size: 15px;
-    padding: 6px 15px;
+    font-size: 12px;
+    padding: 7px 0;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 .cr1{
@@ -285,6 +286,7 @@ a{
 .container1inners1{
     flex-basis: 33%;
     max-width: 33%;
+    margin: auto;
 }
 
 .container1inners2{
@@ -1246,19 +1248,12 @@ tr{
         margin: 39% 2%
      }
 
-     /* .container1inners2_1 a h2{
-        font-size: 14px;
-        width: 100%;
-        margin: 0 30px;
-
-     } */
-
      .icontext{
          font-size: 19px;
      }
 
      .img2{
-         width: 55%;
+         width: 30%;
      }
  }
 
