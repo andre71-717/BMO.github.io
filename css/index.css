@@ -117,6 +117,12 @@
 }
 
 @media(max-width: 1000px){
+
+    .container1inners2_1 {
+        width: 100%;
+        margin: 0 30px;
+    }
+
     .inners2{
         padding: 2% 0;
     }
@@ -842,11 +848,10 @@ tr{
  }
 
  .tdinners{
-    position: absolute;
     background-color: rgb(39, 53, 73);
-    width: 100%;
+    width: 114%;
     top: -102px;
-    left: 0px;
+    left: -8px;
     font-size: 13px;
     border-radius: 15px 15px 0px 0px;
     line-height: 18px;
@@ -1091,10 +1096,15 @@ tr{
     }
 
     .container1inners2{
-        flex-basis: 50%;
+        flex-basis: 100%;
         max-width: calc(50% - 20px);
-        margin: 30px 0px;
+        margin: 30px 50px;
     }
+
+    .container1inners2_1{
+        width: 100%;
+    }
+
     .container1inners3{
         display: none;
     }
@@ -1236,9 +1246,12 @@ tr{
         margin: 39% 2%
      }
 
-     .container1inners2_1 a h2{
+     /* .container1inners2_1 a h2{
         font-size: 14px;
-     }
+        width: 100%;
+        margin: 0 30px;
+
+     } */
 
      .icontext{
          font-size: 19px;
